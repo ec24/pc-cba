@@ -1,0 +1,40 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">TEÓRICOS</div>
+                <div class="description">
+                    <div class="ui divided list">
+                        {% for class in include.theory.classes %}
+                        <div class="item">
+                            <div class="header">
+                                {% if class.link %}
+                                <a href="{{ class.link }}">{{ class.name }}</a>
+                                {% else %}
+                                <strong>{{ class.name }}</strong>
+                                {% endif %}
+                                {% if class.extra_links %}
+                                <div class="right floated content">
+                                    {% for extra in class.extra_contents %}
+                                    <a href="{{ extra.link }}">[{{ extra.name }}]</a>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% if class.teacher or class.comment %}
+                            <p class="description">
+                                {{ class.teacher }}
+                                {% if class.comment %}
+                                <br><em class="ui text" style="color:limegreen">//{{class.comment}}</em>
+                                {% endif %}
+                            </p>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

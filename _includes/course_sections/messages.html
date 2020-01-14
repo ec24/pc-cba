@@ -1,0 +1,9 @@
+
+<div class="ui basic segment">
+    {% for message in include.messages %}
+    <div class="ui {{ message.type }} message">
+        <div class="header">{{ message.header }}</div>
+        <div class="description">{{ message.description }}</div>
+    </div>
+    {% endfor %}
+</div>

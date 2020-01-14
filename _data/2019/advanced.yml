@@ -1,0 +1,177 @@
+name: Avanzado (2019)
+
+messages:
+    - type: info
+      description: El examen se tomará de manera prescencial el 4 de julio en el lab IPT de FaMAF desde 14:00 hasta 19:00
+      header: EXAMEN FINAL
+
+class_info:
+    description: Las clases son los lunes en lab IPT de FaMAF. Comienzan el 25 de marzo y terminan el 24 de junio.
+
+group_invites:
+    - link: https://codeforces.com/group/C9jXEjiMM5
+      icon_location: https://sta.codeforces.com/s/56906/favicon-32x32.png
+      name: Codeforces group
+    - link: https://t.me/joinchat/C5yoMhbhc91tarSsyIWJ_Q
+      icon_location: https://web.telegram.org/favicon.ico
+      name: Telgram group
+
+discussed_topics:
+    - Flujo y matching
+    - Puentes, atriculaciones y componentes biconexas
+    - Hashing
+    - Suffix automaton
+    - Lowest common ancestor (LCA)
+    - Heavy-Light descomposition (HLD)
+    - Strongly connected components (SCC)
+    - Knuth-Morris-Pratt (KMP)
+    - Z function
+    - Manacher
+    - Exponenciación de matrices
+
+contests:
+    - name: 1-Avanzado-2019
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/241748
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/241748/standings
+    - name: 2-Avanzado-2019 (07/04)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/242266
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/242266/standings
+    - name: 3-Avanzado-2019 (12/04)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/242588
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/242588/standings
+    - name: 4-Avanzado-2019 (18/04)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/243058
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/243058/standings
+    - name: 5-Avanzado-2019 (06/05)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/243864
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/243864/standings
+    - name: 6-Avanzado-2019 (12/05)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/244418
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/244418/standings
+    - name: 7-Avanzado-2019 (27/05)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/245087
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/245087/standings
+      solutions_link: https://drive.google.com/open?id=1jxDMkoKc_CV0jn53rIkcVFTH9FZjIvIz
+    - name: Final-Avanzado-2019 (04/07)
+      problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/247188
+      standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/247188/standings
+
+suggested_contests:
+    - name: AtCoder DP Educational
+      link: https://atcoder.jp/contests/dp
+    - name: 2018 Brazil ICPC Training Camp - Flow + Matching
+      link: https://codeforces.com/group/3qadGzUdR4/contest/101712
+
+suggested_problems:
+    difficulty:
+        - color: green
+          name: Normal
+    problem_lists:
+        - name: General
+          problems:
+              - source: CF
+                id: 652E
+                link: https://codeforces.com/problemset/problem/652/E
+                difficulty_color: green
+              - source: CF
+                id: 487E
+                link: https://codeforces.com/problemset/problem/487/E
+                difficulty_color: green
+              - source: CF
+                id: 1117D
+                link: https://codeforces.com/problemset/problem/1117/D
+                difficulty_color: green
+              - source: 2017–2018 ICPC NEERC Northern Subregional
+                id: G
+                link: https://codeforces.com/gym/101612/attachments
+                difficulty_color: green
+              - source: SPOJ
+                id: QTREE
+                link: https://www.spoj.com/problems/QTREE/
+                difficulty_color: green
+              - source: ARCHIVE
+                id: 3805
+                link: https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=531&page=show_problem&problem=3805
+                difficulty_color: green
+              - source: UVA
+                id: 3911
+                link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3911
+                difficulty_color: green
+        - name: Strings
+          problems:
+              - source: CF
+                id: 235C
+                link: https://codeforces.com/problemset/problem/235/C
+                difficulty_color: green
+              - source: CF
+                id: 452E
+                link: https://codeforces.com/problemset/problem/452/E
+                difficulty_color: green
+              - source: SPOJ
+                id: LCS
+                link: https://www.spoj.com/problems/LCS
+                difficulty_color: green
+              - source: SPOJ
+                id: LCS2
+                link: https://www.spoj.com/problems/LCS2
+                difficulty_color: green
+              - source: SPOJ
+                id: SUBST1
+                link: https://www.spoj.com/problems/SUBST1
+                difficulty_color: green
+              - source: SPOJ
+                id: MINMOVE
+                link: https://www.spoj.com/problems/MINMOVE
+                difficulty_color: green
+              - source: SPOJ
+                id: SUBLEX
+                link: https://www.spoj.com/problems/SUBLEX
+                difficulty_color: green
+              - source: SPOJ
+                id: NSUBSTR
+                link: https://www.spoj.com/problems/NSUBSTR
+                difficulty_color: green
+              - source: Brazilian Summer Camp 2018
+                id: H
+                link: https://codeforces.com/group/3qadGzUdR4/contest/101711/problem/H
+                difficulty_color: green
+        - name: Constructivos
+          problems:
+              - source: CF
+                id: 575D
+                link: https://codeforces.com/problemset/problem/575/D
+                difficulty_color: green
+        - name: Strongly connected components
+          problems:
+              - source: CF
+                id: 1138E
+                link: https://codeforces.com/contest/1138/problem/E
+                difficulty_color: green
+              - source: 2018-2019 ICPC Asia Nakhon Pathom Regional
+                id: G
+                link: https://codeforces.com/gym/102091
+                difficulty_color: green
+        - name: Matrix Exponentiation
+          problems:
+              - source: SPOJ
+                id: FIBTWIST
+                link: https://www.spoj.com/problems/FIBTWIST/
+                difficulty_color: green
+              - source: SPOJ
+                id: FIBOSUM
+                link: https://www.spoj.com/problems/FIBOSUM/
+                difficulty_color: green
+              - source: SPOJ
+                id: NGM2
+                link: https://www.spoj.com/problems/NGM2/
+                difficulty_color: green
+              - source: SPOJ
+                id: TAP2015E
+                link: https://www.spoj.com/problems/TAP2015E/
+                difficulty_color: green
+        - name: Geometría
+          problems:
+              - source: SPOJ
+                id: TAP2014C
+                link: https://www.spoj.com/problems/TAP2014C/
+                difficulty_color: green

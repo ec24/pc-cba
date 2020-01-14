@@ -1,0 +1,33 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">PROBLEMAS SUGERIDOS</div>
+                <div class="meta">
+                    Dificultad:
+                    {% for type in include.suggested_problems.difficulty %}
+                    <a class="ui {{ type.color }} horizontal tiny label">{{ type.name }}</a>
+                    {% endfor %}
+                </div>
+                <div class="description">
+                    <div class="ui list">
+                        {% for problem_list in include.suggested_problems.problem_lists %}
+                        <div class="item">
+                            <div class="description">
+                                {{ problem_list.name }}<br>
+                                {% for problem in problem_list.problems %}
+                                <a class="ui {{ problem.difficulty_color }} label tiny suggested_problem_label" href="{{ problem.link }}">
+                                    {{ problem.source }}
+                                    <div class="detail">{{ problem.id }}</div>
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

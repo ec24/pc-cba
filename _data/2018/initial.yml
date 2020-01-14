@@ -1,0 +1,307 @@
+name: Inicial (2018)
+
+messages:
+    - type: info
+      description: El examen se tomará de manera prescencial el 10 de julio en el lab 28 de FaMAF desde 09:00 hasta 14:00.
+      header: EXAMEN FINAL
+
+class_info:
+    description: Las clases son los martes y viernes de 18:00 a 20:00 en el lab 28 de FaMAF. Arrancan el 6 de Abril y terminan el 22 de Junio.
+
+group_invites:
+    - link: https://codeforces.com/group/KwBzUrrGrr
+      icon_location: https://sta.codeforces.com/s/56906/favicon-32x32.png
+      name: Codeforces group
+    - link: https://t.me/joinchat/BsxlzBBMHJB6_H5TY2phCg
+      icon_location: https://web.telegram.org/favicon.ico
+      name: Telgram group
+    - link: https://groups.google.com/forum/#!forum/ipc18-famaf
+      icon_location: https://groups.google.com/forum/favicon.ico
+      name: Google group
+
+theory:
+    classes:
+        - name: Introducción a la programación competitiva
+          link: /assets/2018/inicial/pdfs/intro.pdf
+          teacher: Sebastián Marin
+          comment: ContestWatcherBot de Telegram dejó de funcionar
+        - name: Beneficios de la programación competitiva
+          link: /assets/2018/inicial/pdfs/beneficios.pdf
+          teacher: Sebastián Marin
+        - name: Arreglos, string y sort
+          link: /assets/2018/inicial/pdfs/array_string_sort.pdf
+          teacher: Sebastián Marin
+        - name: Orden y limites
+          link: /assets/2018/inicial/pdfs/order_and_limits.pdf
+          teacher: Sebastián Marin
+        - name: Vector, set y map
+          link: /assets/2018/inicial/pdfs/stl.pdf
+          teacher: Emanuel Lupi
+        - name: Greedy
+          link: /assets/2018/inicial/pdfs/greedy.pdf
+          teacher: Marcos Kolodny
+        - name: Programación dinámica
+          link: /assets/2018/inicial/pdfs/dp.pdf
+          teacher: Sebastián Marin
+        - name: Grafos
+          link: /assets/2018/inicial/pdfs/graphs.pdf
+          teacher: Hector Peña Pollastri
+        - name: Grafos dirigidos
+          link: /assets/2018/inicial/pdfs/directed_graphs.pdf
+          teacher: Marcos Kolodny
+        - name: Kruskal + Union find
+          link: /assets/2018/inicial/pdfs/kruskal_uf.pdf
+          teacher: Emanuel Lupi
+        - name: Segment tree
+          link: /assets/2018/inicial/pdfs/segment_tree.pdf
+          teacher: Marcos Kolodny
+        - name: Arimética modular y factorización
+          link: /assets/2018/inicial/pdfs/math.pdf
+          teacher: Matías Hunicken
+
+contests:
+    - name: Contest FaMAF (12/05)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/223781
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/223781/standings
+      solutions_link: https://drive.google.com/open?id=1aDa66Rdmu2UYdoaCRgnC_zwk_suar86w
+    - name: Contest FaMAF (19/05)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/223988
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/223988/standings
+      solutions_link: https://drive.google.com/open?id=1KhMih_cvDnzFtXj1CfTe8EsugYp1ffXK
+    - name: Contest FaMAF (26/05)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/224169
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/224169/standings
+      solutions_link: https://drive.google.com/open?id=1WaGB3I4_MrNgOCn0p950gcRWdQBxlxK3
+    - name: Contest FaMAF (02/06)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/224389
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/224389/standings
+      solutions_link: https://drive.google.com/open?id=1u7BE36qWiMWwVQFJis4vAjUtxH5dkxGO
+    - name: Contest FaMAF (08/06)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/224646
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/224646/standings
+      solutions_link: https://drive.google.com/open?id=1yOSjmpHRgLQkRIBVMNXgzs0gTA2qtcRh
+    - name: Contest FaMAF Final (10/07)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/225630
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/225630/standings
+
+suggested_problems:
+    difficulty:
+        - color: green
+          name: Normal
+        - color: red
+          name: Desafío
+    problem_lists:
+        - name: Precalentamiento (06/04)
+          problems:
+              - source: CF
+                id: 961A
+                link: https://codeforces.com/problemset/problem/961/A
+                difficulty_color: green
+              - source: CF
+                id: 770A
+                link: https://codeforces.com/problemset/problem/770/A
+                difficulty_color: green
+              - source: CF
+                id: 725A
+                link: https://codeforces.com/problemset/problem/725/A
+                difficulty_color: green
+              - source: CF
+                id: 732A
+                link: https://codeforces.com/problemset/problem/732/A
+                difficulty_color: green
+              - source: CF
+                id: 722A
+                link: https://codeforces.com/problemset/problem/722/A
+                difficulty_color: green
+              - source: CF
+                id: 961B
+                link: https://codeforces.com/problemset/problem/961/B
+                difficulty_color: red
+        - name: Segunda clase (10/04)
+          problems:
+              - source: CF
+                id: 135A
+                link: https://codeforces.com/problemset/problem/135/A
+                difficulty_color: green
+              - source: CF
+                id: 11A
+                link: https://codeforces.com/problemset/problem/11/A
+                difficulty_color: green
+              - source: CF
+                id: 49A
+                link: https://codeforces.com/problemset/problem/49/A
+                difficulty_color: green
+              - source: CF
+                id: 263A
+                link: https://codeforces.com/problemset/problem/263/A
+                difficulty_color: green
+              - source: CF
+                id: 699B
+                link: https://codeforces.com/problemset/problem/699/B
+                difficulty_color: green
+              - source: CF
+                id: 919C
+                link: https://codeforces.com/problemset/problem/919/C
+                difficulty_color: green
+        - name: STL (17/04)
+          problems:
+              - source: CF
+                id: 4C
+                link: https://codeforces.com/problemset/problem/4/C
+                difficulty_color: green
+              - source: CF
+                id: 236A
+                link: https://codeforces.com/problemset/problem/236/A
+                difficulty_color: green
+              - source: CF
+                id: 615A
+                link: https://codeforces.com/problemset/problem/615/A
+                difficulty_color: green
+        - name: Greedy (21/04)
+          problems:
+              - source: CF
+                id: 588A
+                link: https://codeforces.com/problemset/problem/588/A
+                difficulty_color: green
+              - source: CF
+                id: 298B
+                link: https://codeforces.com/problemset/problem/298/B
+                difficulty_color: green
+              - source: CF
+                id: 262B
+                link: https://codeforces.com/problemset/problem/262/B
+                difficulty_color: green
+              - source: CF
+                id: 305C
+                link: https://codeforces.com/problemset/problem/305/C
+                difficulty_color: green
+              - source: 2014-2015 NEERC Southern Subregional
+                id: F
+                link: https://codeforces.com/gym/100513/problem/F
+                difficulty_color: red
+        - name: Programación dinámica (24/04)
+          problems:
+              - source: CF
+                id: 189A
+                link: https://codeforces.com/problemset/problem/189/A
+                difficulty_color: green
+              - source: CF
+                id: 19B
+                link: https://codeforces.com/problemset/problem/19/B
+                difficulty_color: green
+              - source: SPOJ
+                id: ACODE
+                link: http://www.spoj.com/problems/ACODE
+                difficulty_color: green
+              - source: SPOJ
+                id: PARTY
+                link: http://www.spoj.com/problems/PARTY
+                difficulty_color: green
+              - source: LC
+                id: COINCHANGE
+                link: https://leetcode.com/problems/coin-change/description
+                difficulty_color: green
+        - name: Grafos (04/05)
+          problems:
+              - source: SPOJ
+                id: TDBFS
+                link: http://www.spoj.com/problems/TDBFS
+                difficulty_color: green
+              - source: SPOJ
+                id: MAKEMAZE
+                link: http://www.spoj.com/problems/MAKEMAZE
+                difficulty_color: green
+              - source: CF
+                id: 377A
+                link: http://codeforces.com/problemset/problem/377/A
+                difficulty_color: green
+              - source: CF
+                id: 103B
+                link: http://codeforces.com/problemset/problem/103/B
+                difficulty_color: green
+              - source: CF
+                id: 115A
+                link: http://codeforces.com/problemset/problem/115/A
+                difficulty_color: green
+              - source: CF
+                id: 791B
+                link: http://codeforces.com/problemset/problem/791/B
+                difficulty_color: green
+        - name: Grafos dirigidos (08/05)
+          problems:
+              - source: CF
+                id: 510C
+                link: https://codeforces.com/contest/510/problem/C
+                difficulty_color: green
+              - source: SPOJ
+                id: TOPOSORT
+                link: http://www.spoj.com/problems/TOPOSORT
+                difficulty_color: green
+              - source: CF
+                id: 20C
+                link: https://codeforces.com/problemset/problem/20/C
+                difficulty_color: green
+              - source: CF
+                id: 545E
+                link: https://codeforces.com/problemset/problem/545/E
+                difficulty_color: green
+              - source: CF
+                id: 938D
+                link: https://codeforces.com/problemset/problem/938/D
+                difficulty_color: green
+              - source: CF
+                id: 919D
+                link: https://codeforces.com/contest/919/problem/D
+                difficulty_color: red
+        - name: MST (10/05)
+          problems:
+              - source: SPOJ
+                id: MST
+                link: http://www.spoj.com/problems/MST/
+                difficulty_color: green
+              - source: UVA
+                id: 849
+                link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=849
+                difficulty_color: green
+              - source: ZJU
+                id: 2326
+                link: http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=2326
+                difficulty_color: green
+              - source: ZJU
+                id: 2048
+                link: http://acm.zju.edu.cn/onlinejudge/showProblem.do?problemCode=2048
+                difficulty_color: green
+              - source: UVA
+                id: 3615
+                link: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3615
+                difficulty_color: green
+              - source: Andrew Stankevich Contest 7
+                id: H
+                link: http://codeforces.com/group/j9VlExDLmA/contest/100204
+                difficulty_color: green
+        - name: Clase 18/05
+          problems:
+              - source: CF
+                id: 984B
+                link: https://codeforces.com/problemset/problem/984/B
+                difficulty_color: green
+              - source: CF
+                id: 58B
+                link: https://codeforces.com/problemset/problem/58/B
+                difficulty_color: green
+              - source: CF
+                id: 285A
+                link: https://codeforces.com/contest/285/problem/A
+                difficulty_color: green
+              - source: CF
+                id: 538B
+                link: https://codeforces.com/contest/538/problem/B
+                difficulty_color: green
+              - source: 2012-2013 NEERC Moscow Subregional
+                id: C
+                link: https://codeforces.com/gym/100685/problem/C
+                difficulty_color: green
+              - source: CF
+                id: 876B
+                link: https://codeforces.com/problemset/problem/876/B
+                difficulty_color: green

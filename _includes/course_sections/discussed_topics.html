@@ -1,0 +1,17 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">TEMAS DISCUTIDOS</div>
+                <div class="description">
+                    <ul style="margin:0">
+                        {% for topic in include.discussed_topics %}
+                        <li> {{ topic }} </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

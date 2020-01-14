@@ -1,0 +1,77 @@
+name: Inicial (2019)
+
+messages:
+    - type: info
+      description: El examen se tomará de manera prescencial el 26 de junio en el lab 30 de FaMAF desde 14:00 hasta 19:00.
+      header: EXAMEN FINAL
+
+class_info:
+    description: Las clases son los martes y miércoles de 18:00 a 20:00 en lab 30 de FaMAF. Comienzan el 26 de marzo y terminan el 19 de junio.
+
+group_invites:
+    - link: https://codeforces.com/group/KwBzUrrGrr
+      icon_location: https://sta.codeforces.com/s/56906/favicon-32x32.png
+      name: Codeforces group
+    - link: https://t.me/joinchat/C5yoMhbhc91tarSsyIWJ_Q
+      icon_location: https://web.telegram.org/favicon.ico
+      name: Telgram group
+    - link: https://groups.google.com/forum/#!forum/ipc-2019
+      icon_location: https://groups.google.com/forum/favicon.ico
+      name: Google group
+
+theory:
+    classes:
+        - name: Presentación
+          link: /assets/2019/inicial/presentation.pdf
+          teacher: Martin Rodriguez
+        - name: Introducción a la programación competitiva
+          link: /assets/2019/inicial/pdfs/intro.pdf
+          teacher: Sebastián Marin
+        - name: Standard template library
+          link: /assets/2019/inicial/pdfs/stl.pdf
+          teacher: Uziel Ludueña
+        - name: Binaria y ordenación
+          link: /assets/2019/inicial/pdfs/binary_sort.pdf
+          teacher: Leandro Acosta
+        - name: Greedy
+          link: /assets/2019/inicial/pdfs/greedy.pdf
+          teacher: Mariano Piatti
+        - name: Programación dinámica
+          link: /assets/2019/inicial/pdfs/dp.pdf
+          extra_contents:
+              - name: Códigos
+                link: https://drive.google.com/open?id=1mZzlzJbFrnxwtaZlAwMq6hY__KtQ0AAg
+          teacher: Federico González Kriegel
+        - name: Grafos 1+2
+          link: /assets/2019/inicial/pdfs/graphs.pdf
+          teacher: Thomas Vadora
+        - name: Segment tree
+          link: /assets/2019/inicial/pdfs/segment_tree.pdf
+          teacher: Gonzalo Gigena
+        - name: Matemática
+          teacher: Uziel Ludueña
+
+contests:
+    - name: Contest 1 IntroCP 2019 (09/04)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/242394
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/242394/standings
+    - name: Contest 2 IntroCP 2019 (17/04)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/242926
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/242926/standings
+      solutions_link: https://drive.google.com/open?id=1J25lwc8jhiWMFYxQxjkeKub6_hbOYMLx
+    - name: Contest 3 IntroCP 2019 (24/04)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/243386
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/243386/standings
+    - name: Contest 4 IntroCP 2019 (14/05)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/244155
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/244155/standings
+    - name: Contest 5 IntroCP 2019 (29/05)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/245354
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/245354/standings
+      solutions_link: https://drive.google.com/open?id=1KHSWqB1AmidSqDqOQU21r4PDGIxZNcxK
+    - name: Contest 6 IntroCP 2019 (19/06)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/246578
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/246578/standings
+    - name: Contest Final IntroCP 2019 (26/06)
+      problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/246944
+      standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/246944/standings

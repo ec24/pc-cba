@@ -1,0 +1,21 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">CONTESTS SUGERIDOS</div>
+                <div class="description">
+                    <div class="ui divided list">
+                        {% for contest in include.suggested_contests %}
+                        <div class="item">
+                            <div class="description">
+                                <a href="{{ contest.link }}">{{ contest.name }}</a>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

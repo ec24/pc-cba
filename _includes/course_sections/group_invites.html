@@ -1,0 +1,15 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">ENLACES DE GRUPO</div>
+                <div class="description">
+                    {% for invite in include.group_invites %}
+                    <a href="{{ invite.link }}"><img src="{{ invite.icon_location }}"></a>&nbsp;
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

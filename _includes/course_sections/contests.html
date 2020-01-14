@@ -1,0 +1,24 @@
+
+<div class="ui basic segment">
+    <div class="ui items">
+        <div class="item">
+            <div class="content">
+                <div class="header">CONTESTS</div>
+                <div class="description">
+                    <div class="ui relaxed divided list">
+                        {% for contest in include.contests %}
+                        <div class="item">
+                            <div class="description">
+                                {{ contest.name }}<br>
+                                <a href="{{ contest.problems_link }}">Problemas</a>
+                                • <a href="{{ contest.standing_link }}">Standing</a>
+                                {% if contest.solutions_link %}• <a href="{{ contest.solutions_link }}">Soluciones</a>{% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

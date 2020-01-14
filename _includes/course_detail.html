@@ -1,0 +1,35 @@
+
+<h1 class="ui header">{{ include.course_data.name }}</h1>
+<div class="ui divider"></div>
+
+{% if include.course_data.messages %}
+    {% include course_sections/messages.html messages=include.course_data.messages %}
+{% endif %}
+
+{% if include.course_data.class_info %}
+    {% include course_sections/class_info.html class_info=include.course_data.class_info %}
+{% endif %}
+
+{% if include.course_data.group_invites %}
+    {% include course_sections/group_invites.html group_invites=include.course_data.group_invites %}
+{% endif %}
+
+{% if include.course_data.theory %}
+    {% include course_sections/theory.html theory=include.course_data.theory %}
+{% endif %}
+
+{% if include.course_data.discussed_topics %}
+    {% include course_sections/discussed_topics.html discussed_topics=include.course_data.discussed_topics %}
+{% endif %}
+
+{% if include.course_data.contests %}
+    {% include course_sections/contests.html contests=include.course_data.contests %}
+{% endif %}
+
+{% if include.course_data.suggested_contests %}
+    {% include course_sections/suggested_contests.html suggested_contests=include.course_data.suggested_contests %}
+{% endif %}
+
+{% if include.course_data.suggested_problems %}
+    {% include course_sections/suggested_problems.html suggested_problems=include.course_data.suggested_problems %}
+{% endif %}

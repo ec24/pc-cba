@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /2019/inicial
 layout: default
 title: Inicial (2019) | PC-CBA
 ---
