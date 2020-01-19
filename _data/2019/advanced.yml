@@ -30,7 +30,7 @@ discussed_topics:
     - Exponenciación de matrices
 
 contests:
-    - name: 1-Avanzado-2019
+    - name: 1-Avanzado-2019 (30/03)
       problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/241748
       standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/241748/standings
     - name: 2-Avanzado-2019 (07/04)
@@ -57,6 +57,7 @@ contests:
     - name: Final-Avanzado-2019 (04/07)
       problems_link: https://codeforces.com/group/C9jXEjiMM5/contest/247188
       standing_link: https://codeforces.com/group/C9jXEjiMM5/contest/247188/standings
+      solutions_link: https://drive.google.com/open?id=1rm4LXwnN3NnZkYefjZUp3LhMl-KO5qv3
 
 suggested_contests:
     - name: AtCoder DP Educational
