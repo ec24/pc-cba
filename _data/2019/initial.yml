@@ -23,7 +23,7 @@ theory:
     classes:
         - name: Presentación
           link: assets/2019/inicial/presentation.pdf
-          teacher: Martin Rodriguez
+          teacher: Martín Rodriguez
         - name: Introducción a la programación competitiva
           link: assets/2019/inicial/pdfs/intro.pdf
           teacher: Sebastián Marin
@@ -67,6 +67,7 @@ contests:
     - name: Contest 4 IntroCP 2019 (14/05)
       problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/244155
       standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/244155/standings
+      solutions_link: https://drive.google.com/open?id=14hDDIriSbdooO505IPsIZRnZw-hL7LQy
     - name: Contest 5 IntroCP 2019 (29/05)
       problems_link: https://codeforces.com/group/KwBzUrrGrr/contest/245354
       standing_link: https://codeforces.com/group/KwBzUrrGrr/contest/245354/standings
