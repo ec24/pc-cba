@@ -22,41 +22,41 @@ group_invites:
 theory:
     classes:
         - name: Introducción a la programación competitiva
-          link: /assets/2018/inicial/pdfs/intro.pdf
+          link: assets/2018/inicial/pdfs/intro.pdf
           teacher: Sebastián Marin
           comment: ContestWatcherBot de Telegram dejó de funcionar
         - name: Beneficios de la programación competitiva
-          link: /assets/2018/inicial/pdfs/beneficios.pdf
+          link: assets/2018/inicial/pdfs/beneficios.pdf
           teacher: Sebastián Marin
         - name: Arreglos, string y sort
-          link: /assets/2018/inicial/pdfs/array_string_sort.pdf
+          link: assets/2018/inicial/pdfs/array_string_sort.pdf
           teacher: Sebastián Marin
         - name: Orden y limites
-          link: /assets/2018/inicial/pdfs/order_and_limits.pdf
+          link: assets/2018/inicial/pdfs/order_and_limits.pdf
           teacher: Sebastián Marin
         - name: Vector, set y map
-          link: /assets/2018/inicial/pdfs/stl.pdf
+          link: assets/2018/inicial/pdfs/stl.pdf
           teacher: Emanuel Lupi
         - name: Greedy
-          link: /assets/2018/inicial/pdfs/greedy.pdf
+          link: assets/2018/inicial/pdfs/greedy.pdf
           teacher: Marcos Kolodny
         - name: Programación dinámica
-          link: /assets/2018/inicial/pdfs/dp.pdf
+          link: assets/2018/inicial/pdfs/dp.pdf
           teacher: Sebastián Marin
         - name: Grafos
-          link: /assets/2018/inicial/pdfs/graphs.pdf
+          link: assets/2018/inicial/pdfs/graphs.pdf
           teacher: Hector Peña Pollastri
         - name: Grafos dirigidos
-          link: /assets/2018/inicial/pdfs/directed_graphs.pdf
+          link: assets/2018/inicial/pdfs/directed_graphs.pdf
           teacher: Marcos Kolodny
         - name: Kruskal + Union find
-          link: /assets/2018/inicial/pdfs/kruskal_uf.pdf
+          link: assets/2018/inicial/pdfs/kruskal_uf.pdf
           teacher: Emanuel Lupi
         - name: Segment tree
-          link: /assets/2018/inicial/pdfs/segment_tree.pdf
+          link: assets/2018/inicial/pdfs/segment_tree.pdf
           teacher: Marcos Kolodny
         - name: Arimética modular y factorización
-          link: /assets/2018/inicial/pdfs/math.pdf
+          link: assets/2018/inicial/pdfs/math.pdf
           teacher: Matías Hunicken
 
 contests:

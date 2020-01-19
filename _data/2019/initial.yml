@@ -22,31 +22,31 @@ group_invites:
 theory:
     classes:
         - name: Presentación
-          link: /assets/2019/inicial/presentation.pdf
+          link: assets/2019/inicial/presentation.pdf
           teacher: Martin Rodriguez
         - name: Introducción a la programación competitiva
-          link: /assets/2019/inicial/pdfs/intro.pdf
+          link: assets/2019/inicial/pdfs/intro.pdf
           teacher: Sebastián Marin
         - name: Standard template library
-          link: /assets/2019/inicial/pdfs/stl.pdf
+          link: assets/2019/inicial/pdfs/stl.pdf
           teacher: Uziel Ludueña
         - name: Binaria y ordenación
-          link: /assets/2019/inicial/pdfs/binary_sort.pdf
+          link: assets/2019/inicial/pdfs/binary_sort.pdf
           teacher: Leandro Acosta
         - name: Greedy
-          link: /assets/2019/inicial/pdfs/greedy.pdf
+          link: assets/2019/inicial/pdfs/greedy.pdf
           teacher: Mariano Piatti
         - name: Programación dinámica
-          link: /assets/2019/inicial/pdfs/dp.pdf
+          link: assets/2019/inicial/pdfs/dp.pdf
           extra_contents:
               - name: Códigos
                 link: https://drive.google.com/open?id=1mZzlzJbFrnxwtaZlAwMq6hY__KtQ0AAg
           teacher: Federico González Kriegel
         - name: Grafos 1+2
-          link: /assets/2019/inicial/pdfs/graphs.pdf
+          link: assets/2019/inicial/pdfs/graphs.pdf
           teacher: Thomas Vadora
         - name: Segment tree
-          link: /assets/2019/inicial/pdfs/segment_tree.pdf
+          link: assets/2019/inicial/pdfs/segment_tree.pdf
           teacher: Gonzalo Gigena
         - name: Matemática
           teacher: Uziel Ludueña
