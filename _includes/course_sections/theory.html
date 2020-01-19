@@ -14,7 +14,7 @@
                                 {% else %}
                                 <strong>{{ class.name }}</strong>
                                 {% endif %}
-                                {% if class.extra_links %}
+                                {% if class.extra_contents %}
                                 <div class="right floated content">
                                     {% for extra in class.extra_contents %}
                                     <a href="{{ extra.link }}">[{{ extra.name }}]</a>
