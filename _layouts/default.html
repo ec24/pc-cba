@@ -12,28 +12,28 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
     <style>
-        .grey-text {
-            color: #727272
+    .grey-text {
+        color: #727272
+    }
+    @media (min-width: 1024px) {
+        #website_container{
+            padding-top: 35px;
         }
-        @media (min-width: 1024px) {
-            #website_container{
-                padding-top: 35px;
-            }
+    }
+    @media (max-width: 1023px) {
+        #website_container {
+            padding-top: 18px;
         }
-        @media (max-width: 1023px) {
-            #website_container {
-                padding-top: 18px;
-            }
-            #empty_left_column {
-                display: none;
-            }
+        #empty_left_column {
+            display: none;
         }
-        .suggested_problem_label {
-            margin-bottom: 3px !important;
-        }
-        a:hover{
-            font-weight: bold;
-        }
+    }
+    .suggested_problem_label {
+        margin-bottom: 3px !important;
+    }
+    a:hover{
+        font-weight: bold;
+    }
     </style>
 </head>
 <body>
@@ -41,33 +41,14 @@
         <div class="ui grid">
             <div class="one wide computer only column"></div>
             <div class="five wide computer sixteen wide tablet column">
-                <div class="ui basic segment fixed-menu">
-                    <img src="{{site.baseurl}}/assets/logo.svg" class="ui centered image fluid"/>
-                    <br>
-                    <div>
-                        <strong>EDICIONES</strong> </br>
-                        <span class="grey-text">2019</span> <a href="{{site.baseurl}}/2019/inicial">[Inicial]</a> <a href="{{site.baseurl}}/2019/avanzado">[Avanzado]</a> </br>
-                        <span class="grey-text">2018</span>  <a href="{{site.baseurl}}/2018/inicial">[Inicial]</a>
-                    </div>
-                </br>
-                <div>
-                    <strong>JUECES PARA PRACTICAR</strong> </br>
-                    <a href="https://codeforces.com">[Codeforces]</a>
-                    <a href="https://atcoder.jp">[AtCoder]</a>
+                {% include header.html %}
+            </div>
+            <div class="nine wide computer sixteen wide tablet column">
+                <div class="ui basic segment">
+                    {{ content }}
                 </div>
-            </br>
-            <div>
-                <strong>CÓDIGOS DE REFERENCIA</strong> </br>
-                <em class="grey-text">El Vasito - Team Reference</em>: <a href="https://github.com/mhunicken/icpc-team-notebook-el-vasito">[GitHub]</a> <a href="https://drive.google.com/open?id=1XwYpxx2fg903648eEdYlWkW9Vf49gi2h">[PDF]</a>
             </div>
         </div>
     </div>
-    <div class="nine wide computer sixteen wide tablet column">
-        <div class="ui basic segment">
-            {{ content }}
-        </div>
-    </div>
-</div>
-</div>
 </body>
 </html>
