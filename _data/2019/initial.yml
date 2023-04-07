@@ -16,7 +16,7 @@ group_invites:
       icon_location: https://web.telegram.org/favicon.ico
       name: Telgram group
     - link: https://groups.google.com/forum/#!forum/ipc-2019
-      icon_location: ssl.gstatic.com/images/branding/product/1x/groups_32dp.png
+      icon_location: https://ssl.gstatic.com/images/branding/product/1x/groups_32dp.png
       name: Google group
 
 theory:
